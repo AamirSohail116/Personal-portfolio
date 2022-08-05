@@ -1,0 +1,38 @@
+.contact-form {
+  display: flex;
+  padding: 0 3rem 0 3rem;
+  justify-content: space-around;
+}
+.c-right {
+  position: relative;
+  z-index: 9;
+}
+
+.c-right > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-right > form > input,
+.c-right > form > textarea {
+  margin-bottom: 2rem;
+  width: 20rem;
+  padding: 0.4rem;
+  outline: none;
+  background: none;
+  border: 3px solid #fca61f;
+  color: #788097;
+  text-align: left;
+  background: #fff;
+}
+.c-right > form > button {
+  width: 5rem;
+  align-self: center;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 1rem;
+  filter: blur(110px);
+  z-index: -1;
+}
